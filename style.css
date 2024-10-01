@@ -1,4 +1,34 @@
-table, th, td {
+table span tr, td{
     border: 1px solid black;
     border-collapse: collapse;
-  }
+}
+p, h1, h2, h3, ul, table {
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-size: large;
+    line-height: normal;
+    margin-top: 20px;
+    padding: 5px;
+    outline: 10px;
+}
+h1, h2, h3 {
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+h1:hover {
+background-color: yellow;
+text-decoration: dashed;
+}
+p, h1, h2, h3 {
+    text-align: center;
+}
+ul > li {
+    text-indent: 200px;
+}
+#h1 {
+    font-size: xx-large;
+}
+body {
+    background-image: url("https://i.ytimg.com/vi/WePNs-G7puA/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgXShFMA8=&rs=AOn4CLC3dbKF2Jk8dzXTETyvDD2yhbgdeQ");
+}

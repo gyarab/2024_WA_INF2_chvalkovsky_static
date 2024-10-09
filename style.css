@@ -32,3 +32,47 @@ ul > li {
 body {
     background-image: url("https://i.ytimg.com/vi/WePNs-G7puA/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgXShFMA8=&rs=AOn4CLC3dbKF2Jk8dzXTETyvDD2yhbgdeQ");
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 300px;
+  }
+
+  .item {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 150px; 
+  }
+  .item:hover{
+    background-color: grey;
+    color:black;
+  }
+  @media (max-width: 760px) {
+    .container {
+      flex-direction: row;
+    }
+  
+    .item {
+      flex-basis: 150px;
+      padding: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .item {
+      flex-basis: 100%;
+      margin: 5px;
+      padding: 10px;
+    }
+  }

@@ -55,8 +55,13 @@ body {
     color:black;
   }
   @media (max-width: 760px) {
-    .container {
+    .container{
       flex-direction: row;
+    }
+    .stick{
+      position: fixed;
+      bottom: 0;
+      z-index: 10;
     }
   
     .item {
